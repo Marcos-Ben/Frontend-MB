@@ -1,0 +1,49 @@
+li{
+    list-style: none;
+    margin: 2px;
+}
+a{
+ text-decoration: none;
+ color: rgb(1, 41, 48);
+}
+ul.list-ul {
+    display: inline-flex;
+    float: right;
+    position: relative;
+    top: 15px;
+    
+}
+i#home-icon {
+    font-size: 30px;
+    margin: 2px;
+    position: relative;
+    top: 20px;
+    color: black;
+    text-shadow: 1px 0px 1px white;
+}
+i#user-icon {
+    margin: 2px;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+    color:black;
+    text-shadow: 1px 0px 1px black;
+}
+.content-header {
+    width: 1360px;
+    height: 80px;
+}
+
+i#home-icon:hover{
+color: rgb(3, 72, 82);
+cursor: pointer;
+}
+i#user-icon:hover{
+color: rgb(3, 72, 82);
+cursor: pointer;
+}
+#list1:hover{
+ color: rgb(3, 72, 82);
+ cursor: pointer;
+ font-weight: bold;
+}
