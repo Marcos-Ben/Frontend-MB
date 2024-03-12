@@ -8,14 +8,14 @@
 img#image-perfil {
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 50%;
     border: 2px solid lightslategrey;
 } 
 #edit-image{
     cursor: pointer;
-    position: relative;
-    bottom: 150px;
     font-size: 30px;
+    position: relative;
+    bottom: 10px;
 }
 .image-contenedor {
     padding-right: 0;
@@ -44,4 +44,60 @@ span.smP {
 .container {
     width: 300px;
     height: 200px;
+}
+img#aluralogo {
+    width: 150px;
+    height: 100px;
+}
+img#argprogramalogo {
+    width: 150px;
+    height: 100px;
+}
+img#freecodelogo {
+    width: 150px;
+    height: 100px;
+}
+div.smdiv {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    bottom: 188px;
+    right: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+span.contentsmdiv {
+    position: relative;
+    left: 15px;
+}
+#infCont{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    bottom: 45px;
+    left: 150px;
+}
+.contentButtons {
+    position: relative;
+    left: 50px;
+}
+#tengInt{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-right: 4px;
+}
+#anadSec{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-right: 4px;
+}
+#more{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-right: 1px;
 }

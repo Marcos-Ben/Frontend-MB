@@ -3,4 +3,7 @@ body{
     margin: 0 auto;
     font-family: "Roboto Serif", serif;
     padding: 0;
+    overflow-x: hidden;
+    
+    
 }
